@@ -1580,32 +1580,21 @@ nav ul li a:hover {
 .projects-more .btn1 {
     display: inline-flex;
     align-items: center;
-
     gap: 10px;
-
     padding: 13px 26px;
-
     background: #1769ff;
-
     color: #ffffff;
-
     border-radius: 8px;
-
     font-size: 14px;
     font-weight: 600;
-
     transition: all 0.3s ease;
 }
-
 .projects-more .btn1:hover {
     background: #0d52d6;
-
     transform: translateY(-2px);
 }
 
-
 @media (max-width: 992px) {
-
     .projects {
         padding: 80px 5%;
     }
@@ -1617,11 +1606,9 @@ nav ul li a:hover {
     .project-image {
         height: 240px;
     }
-
 }
 
 @media (max-width: 768px) {
-
     .projects {
         padding: 70px 6%;
     }
@@ -1629,24 +1616,6 @@ nav ul li a:hover {
     .projects .section-title {
         margin-bottom: 40px;
     }
-
-    .projects .section-title h2 {
-        font-size: 32px;
-    }
-
-    .projects .section-title p {
-        font-size: 14px;
-    }
-
-    .projects-container {
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-
-    .project-image {
-        height: 250px;
-    }
-
 }
 
 @media (max-width: 480px) {
